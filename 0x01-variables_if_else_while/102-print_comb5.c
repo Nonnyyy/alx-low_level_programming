@@ -15,6 +15,7 @@ int main(void)
 		{
 			putchar((digit1 / 10) + '0');
 			putchar((digit1 % 10) + '0');
+			putchar(' ');
 			putchar((digit2 / 10) + '0');
 			putchar((digit2 % 10) + '0');
 
