@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main- This is the main entry point
- *
+ *Prints all possible combinations of two two-digit numbers, ranging from 0-99, separated by a comma followed by a space
  * Return: 0
  */
 int main(void)
@@ -12,10 +12,10 @@ int main(void)
 	{
 		for (digit2 = digit1 + 1; digit2 <= 99; digit2++)
 		{
-			/*putchar((digit1 / 10) + '0');*/
+			putchar((digit1 / 10) + '0');
 			putchar((digit1 % 10) + '0');
-			/*putchar(',');
-			putchar((digit2 / 10) + '0');*/
+			putchar(',');
+			putchar((digit2 / 10) + '0');
 			putchar((digit2 % 10) + '0');
 
 			if (digit1 == 98  && digit2 == 99)
