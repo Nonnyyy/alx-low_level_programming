@@ -13,7 +13,8 @@ int main(void)
 	{
 		putchar(number);
 
-		if (number == 57){	
+		if (number == 57)
+		{	
 		break;
 		}
 
