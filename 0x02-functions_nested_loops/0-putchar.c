@@ -2,21 +2,13 @@
 #include "main.h"
 
 /**
- * main- This is the entry point
- * It should print _putchar followed by a new line
+ * _putchar write the character c to stdout
  *
- * Return: 0
+ * Return: 1
  */
+int _putchar(char c)
 
-int main(void)
 {
-	char word[8] = "_putchar";
-	int i;
 
-	for (i = 0; i < 8; i++)
-		_putchar(word[i]);
-
-	_putchar('\n');
-
-	return (0);
+	return (write(1, &c, 1));
 }
