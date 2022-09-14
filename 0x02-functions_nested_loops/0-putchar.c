@@ -1,14 +1,21 @@
-#include <unistd.h>
 #include "main.h"
+#include <string.h>
 
 /**
- * _putchar write the character c to stdout
+ * main- This is the entry point
  *
- * Return: 1
+ *Prints putchar using the putchar prototype
+ * Return: Always 0
  */
-int _putchar(char c)
+int main(void)
 
 {
+	char str[] ="_putchar";
+	int ch;
 
-	return (write(1, &c, 1));
+	for (ch = 0; ch < 8; ch++)
+		_putchar(str[ch]);
+	_putchar('\n');
+
+	return (0);
 }
