@@ -22,7 +22,6 @@ int main(void)
 
 		if (count == 49)
 			printf("\n");
-		_putchar(' ');
 
 		else
 			printf(",");
