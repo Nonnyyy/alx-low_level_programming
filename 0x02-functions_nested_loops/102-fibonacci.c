@@ -14,6 +14,7 @@ int main(void)
 
 	for (count = 0; count < 50; count++)
 	{
+		_putchar(' ');
 		sum = fib1 + fib2;
 		printf("%lu", sum);
 
@@ -25,7 +26,6 @@ int main(void)
 
 		else
 			printf(",");
-		_putchar(' ');
 	}
 
 	return (0);
