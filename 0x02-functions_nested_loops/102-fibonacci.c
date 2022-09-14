@@ -2,11 +2,10 @@
 /**
  * main- this is the entry point
  *
- * Description: Prints the first 50 fibonacci numbers
- * starting with 1 and 2 separated by a comma 
- * followed by a space
+ * Description: Prints the first 50 fibonacci numbers starting
+ * with 1 and 2 separated by commas followed by a space
  *
- * Return 0
+ * Return: Always 0
  */
 int main(void)
 {
@@ -26,6 +25,6 @@ int main(void)
 		else
 			printf(",");
 	}
-
+	_putchar(' ');
 	return (0);
 }
