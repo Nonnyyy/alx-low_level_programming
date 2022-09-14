@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * main -this is the entry point
- * Description: prints the sum of even valued 
- * fibonacci sequence not exceeding 4 million
+ * Description: prints the sum of even valued fibonacci 
+ * sequence not exceeding 4 million
  * Return: 0
  */
 int main(void)
@@ -12,7 +12,7 @@ int main(void)
 
 	while (1)
 	{
-		sum = fib1 +fib2;
+		sum = fib1 + fib2;
 
 		if (sum > 4000000)
 			break;
