@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  * main- this is the entry point
- * Description: computes the sum of all the multiples of 3 or 5 below 1024 (excluded)
+ * Description: computes the sum of all the multiples of 3
+ * or 5 below 1024 (excluded)
  *
  * Return:0 (success)
  */
@@ -14,7 +15,7 @@ int main(void)
 		if ((num % 3 == 0) || (num % 5 == 0))
 			sum += num;
 	}
-	printf("%d\n" , sum);
+	printf("%d\n", sum);
 
 	return (0);
 }
