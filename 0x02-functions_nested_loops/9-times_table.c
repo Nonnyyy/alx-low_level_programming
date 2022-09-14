@@ -1,4 +1,4 @@
-#include "main.h""
+#include "main.h"
 /**
  * times_table- prints the 9 times table
  *
@@ -32,6 +32,6 @@ void times_table(void)
 
 			_putchar((prod % 10) + 48); /*get the second digit*/
 		}
-		_putchar('\n')
+		_putchar('\n');
 	}
 }
