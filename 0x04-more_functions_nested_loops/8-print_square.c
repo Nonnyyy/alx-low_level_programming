@@ -4,7 +4,6 @@
 /**
  * print_square - prints a square
  * @size: the width and length
- *
  * Return: a square 
  */
 
