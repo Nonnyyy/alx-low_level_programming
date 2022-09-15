@@ -32,6 +32,6 @@ void print_triangle(int size)
 
 			putchar('\n');
 		}
-		putchar('\n');
 	}
+	putchar('\n');
 }
