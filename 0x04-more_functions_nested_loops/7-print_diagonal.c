@@ -5,7 +5,7 @@
  * print_diagonal - prints a diagonal
  * @n: the parameter
  *
- * Return: nothing
+ * Return: a diagonal
  */
 
 void print_diagonal(int n)
@@ -30,4 +30,5 @@ void print_diagonal(int n)
 			putchar('\n');
 		}
 	}
+	putchar('\n');
 }
