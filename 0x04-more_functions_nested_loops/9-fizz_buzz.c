@@ -10,31 +10,29 @@
 
 int main(void)
 {
-	int num;
+	int num = 1;
 
-	for (num = 1; num <= 100; num++)
+	while (num++ < 100)
 	{
-		if (num == 100)
+		if ((num % 3 == 0) && (num % 5 == 0))
 		{
-			printf("%s ", Buzz);
+			printf("FizzBuzz ");
 		}
-		else if ((num % 3 == 0) && (i % 5 == 0))
+		else if (( num % 3) == 0)
 		{
-			printf("%s ", FizzBuzz);
+			printf("Fizz ");
 		}
-		else if ( num % 3 == 0)
+		else if ((num % 5) == 0)
 		{
-			printf("%s ", Fizz);
-		}
-		else if (num % 5 == 0)
-		{
-			printf("%s ", Buzz);
-		}
-		else
-		{
-				printf("%d ", num);
+			if (num != 100)
+			{
+				printf("Buzz ");
+			}
+			else
+			{
+				printf("Buzz ");
+			}
 		}
 	}
-	printf("\n");
 	return (0);
 }
