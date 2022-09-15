@@ -2,13 +2,13 @@
 
 /**
  * _isupper- checks if a letter is uppercase
- * @x: number to be checked
+ * @c: number to be checked
  *
  * Return: 1 for upper letter or 0 otherwise
  */
-int _isupper(int x)
+int _isupper(int c)
 {
-	if ((x >= 'A') && (x <= 'Z'))
+	if ((c >= 'A') && (c <= 'Z'))
 
 		return (1);
 	else
