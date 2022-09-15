@@ -5,7 +5,7 @@
  * print_square - prints a square
  * @size: the parameter
  *
- * Return: nothing
+ * Return: a square 
  */
 
 void print_square(int size)
@@ -20,10 +20,13 @@ void print_square(int size)
 			{
 				putchar('#');
 			}
-		}
-		else
-		{
+
+			putchar('#');
 			putchar('\n');
 		}
+	}
+	else
+	{
+		putchar('\n');
 	}
 }
