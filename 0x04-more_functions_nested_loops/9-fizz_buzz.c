@@ -11,27 +11,24 @@
 
 int main(void)
 {
-	int k = 1;
+	int i;
+	char f[] = "Fizz";
+	char b[] = "Buzz";
+	char fb[] = " FizzBuzz";
 
-	while (k <= 100)
+	for (i = 1; i <= 100; i++)
 	{
-		if (k % 3 == 0 && k % 5 == 0)
-			printf("FizzBuzz ");
-		else if (k % 5 == 0)
-		{
-			if (k == 100)
-			{
-				printf("Buzz ");
-				printf("\n");
-			}
-			else
-				printf("Buzz ");
-		}
-		else if (k % 3 == 0)
-			printf("Fizz ");
+		if (i == 100)
+			printf("%s ", b);
+		else if ((i % 3 == 0) && (i % 5 == 0))
+			printf("%s ", fb);
+		else if (i % 3 == 0)
+			printf("%s ", f);
+		else if (i % 5 == 0)
+			printf("%s ", b);
 		else
-			printf("%d ", k);
-		k++
+			printf("%d ", i);
 	}
+	printf("\n");
 	return (0);
 }
