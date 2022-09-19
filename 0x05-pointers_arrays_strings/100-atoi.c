@@ -26,5 +26,5 @@ int _atoi(char *s)
 		c = c * 10 + d * (*(s + b) - '0');
 		b++;
 	}
-	return (n);
+	return (0);
 }
