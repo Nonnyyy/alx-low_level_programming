@@ -11,20 +11,20 @@
 
 int _atoi(char *s)
 {
-	int a, b, c, d;
-	a = c = 0;
-	d = 1;
-	while ((*(s + a) < '0' || *(s + a) > '9') && (*(s + a) != '\0'))
+	int sign = 1;
+	unsigned int num = 0;
+
+	do
 	{
-		if (*(s + a) == '-')
-			d *= -1;
-		a++;
+		if (*s == '-')
+			sign *= -1;
+		else if (*s >= '0'&& *s <='9')
+			num = num * 10 + (*s - '0');
+		else if (num > 0)
+			break;
 	}
-	b = a;
-	while ((*(s + b) >= '0') && (*(s + b) <= '9'))
-	{
-		c = c * 10 + d * (*(s + b) - '0');
-		b++;
-	}
-	return (0);
+	while (*s++);
+
+	return (num * sign);
 }
+
