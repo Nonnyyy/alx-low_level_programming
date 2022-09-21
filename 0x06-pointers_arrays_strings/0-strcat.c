@@ -1,7 +1,7 @@
 #includem"main.h"
 
 /**
- * _strcat - it connects the string pointed to by @src to
+ * *_strcat - it connects the string pointed to by @src to
  * the end of the string pointed by @dest
  * @dest: the string that will be appended
  * @src: string to be concatenated upon
