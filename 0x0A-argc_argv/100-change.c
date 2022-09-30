@@ -6,8 +6,7 @@
  * @argc: the number of arguments
  * @argv: the array
  *
- * Return: 1 if the number of arguments is not exactly one
- * 0, otherwise
+ * Return: 0
  */
 
 int main(int argc, char *argv[])
