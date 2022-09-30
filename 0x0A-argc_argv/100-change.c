@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 /**
- * main- it prints the minimum number of coins to make change
- * @argc: the number of arguments
- * @argv: the array
+ * main- it prints the coins left
+ * @argc: the parameter entry
+ * @argv: one number of arguments
  *
- * Return: 0
+ * Return: 0 
  */
 
 int main(int argc, char *argv[])
