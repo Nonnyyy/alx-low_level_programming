@@ -43,7 +43,7 @@ int num_words(char *str)
 		}
 		else
 		{
-			i++
+			i++;
 		}
 	}
 	return (words);
