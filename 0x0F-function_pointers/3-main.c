@@ -3,7 +3,7 @@
 #include "3-calc.h"
 
 /**
- * main- its the entry point and performs simple operations
+ * main- it performs simple operations
  * @argc: number of arguments passed
  * @argv: array of pointers to arguments
  *
@@ -26,9 +26,11 @@ int main(int argc, char *argv[])
 	if (f == NULL)
 	{
 		printf("Error\n");
-		exit(98);
+		exit(99);
 	}
 	c = f(a, b);
 	printf("%d\n", c);
+
+	void main(void)
 	return (0);
 }
