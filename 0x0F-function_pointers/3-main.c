@@ -30,7 +30,5 @@ int main(int argc, char *argv[])
 	}
 	c = f(a, b);
 	printf("%d\n", c);
-
-	void main(void)
 	return (0);
 }
