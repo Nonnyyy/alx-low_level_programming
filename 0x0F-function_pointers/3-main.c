@@ -7,7 +7,7 @@
  * @argc: number of arguments passed
  * @argv: array of pointers to arguments
  *
- * Retun: 0 Always
+ * Return: 0 Always
  */
 
 int main(int argc, char *argv[])
@@ -30,5 +30,6 @@ int main(int argc, char *argv[])
 	}
 	c = f(a, b);
 	printf("%d\n", c);
+
 	return (0);
 }
