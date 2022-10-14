@@ -27,6 +27,6 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		if (i < n - 1 && separator)
 			printf("%s", separator);
 	}
-	pintf("\n");
+	printf("\n");
 	va_end(valist);
 }
