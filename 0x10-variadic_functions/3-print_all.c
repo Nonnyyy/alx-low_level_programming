@@ -3,7 +3,7 @@
 #include "variadic_functions.h"
 
 /**
- * print_c: prints a char
+ * print_c- print a char
  * @c: char to print
  *
  * Return: void
