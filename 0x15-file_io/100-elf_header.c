@@ -2,8 +2,8 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
-#include <unistdh>
-#include <stdioh>
+#include <unistd.h>
+#include <stdio.h>
 #include <stdlib.h>
 
 void check_elf(unsigned char *e_ident);
